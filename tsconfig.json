@@ -1,0 +1,57 @@
+{
+    "compilerOptions": {
+        "target": "esnext",
+        "lib": [
+            "ES2020",
+            "DOM"
+        ],
+        "module": "nodenext",
+        "moduleResolution": "nodenext",
+        "rootDir": "./src",
+        "outDir": "./dist",
+        "paths": {
+            "@/*": [
+                "./src/*"
+            ],
+            "@utils/*": [
+                "./src/utils/*"
+            ],
+            "@services/*": [
+                "./src/services/*"
+            ],
+            "@types/*": [
+                "./src/types/*"
+            ],
+            "@config/*": [
+                "./src/config/*"
+            ]
+        },
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true,
+        "forceConsistentCasingInFileNames": true,
+        "strict": true,
+        "noImplicitAny": true,
+        "strictNullChecks": true,
+        "noImplicitReturns": true,
+        "noFallthroughCasesInSwitch": true,
+        "declaration": true,
+        "declarationMap": true,
+        "sourceMap": true,
+        "removeComments": false,
+        "incremental": true,
+        "tsBuildInfoFile": "./dist/.tsbuildinfo",
+        "skipLibCheck": true,
+        "ignoreDeprecations": "5.0"
+    },
+    "include": [
+        "src/**/*",
+        "tests/**/*",
+        "types/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "dist",
+        "**/*.test.ts",
+        "**/*.spec.ts"
+    ]
+}

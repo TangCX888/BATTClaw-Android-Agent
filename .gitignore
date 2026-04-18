@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+.node_modules.nosync/
+
+# Build and Output
+dist/
+build/
+lib/
+*.tsbuildinfo
+
+# Environment and Secrets
+.env
+.env.local
+.env.*.local
+
+# Logs and Runtime Data
+*.log
+logs/
+log/
+agentData/
+tmp/
+data/runtime/
+data/setting.json
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# Testing
+coverage/
+.nyc_output/
+
+# Large Binaries & Assets
+assets/apk/other
+assets/apk/README.node_modules
+assets/bin/
+assets/scripts
+*.apk
